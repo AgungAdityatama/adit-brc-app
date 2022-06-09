@@ -23,5 +23,5 @@ jobs:
         with:
           args: deploy --dir=build --prod
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: 'adit-react-deploy-heroku'
+          heroku_app_name: 'adit-bcr-app'
           heroku_email: 'agung.adit121@gmail.com'
