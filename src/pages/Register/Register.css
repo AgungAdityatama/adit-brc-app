@@ -6,8 +6,8 @@
 
 .register .img-cover img {
     margin: 0;
-    height: 99.5vh;
-    width: 70%;
+    height: 99vh;
+    width: 85%;
     filter: brightness(70%);
     margin-right: 55px;
 }
