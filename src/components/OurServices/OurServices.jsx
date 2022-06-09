@@ -11,7 +11,7 @@ function OurServices() {
         <>
             <div className="our-services" id='our-services'>
                 <div className="image-service col">
-                    <img src={imgService} alt="image-service" />
+                    <img src={imgService} alt="img-service" />
                 </div>
                 <div className="desc-service col">
                     <p className='title'>Best Car Rental for any kind of trip in (Lokasimu)!</p>

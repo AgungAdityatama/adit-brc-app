@@ -3,7 +3,6 @@ import React from 'react'
 //assets
 import cover from '../../assets/images/cover.png'
 import google from '../../assets/images/google.png'
-import facebook from '../../assets/images/facebook.png'
 import './Login.css'
 
 function Login() {
@@ -12,7 +11,7 @@ function Login() {
         <>
             <div className="login">
                 <div className="img-cover">
-                    <img src={cover} alt="image cover" />
+                    <img src={cover} alt="img-cover" />
                 </div>
                 <form className="form">
                     <div className="logo"></div>

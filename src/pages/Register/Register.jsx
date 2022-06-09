@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 //assets
 import cover from '../../assets/images/cover.png'
 import google from '../../assets/images/google.png'
-import facebook from '../../assets/images/facebook.png'
 import './Register.css'
 
 function Register() {
@@ -13,7 +12,7 @@ function Register() {
         <>
             <div className="register">
                 <div className="img-cover">
-                    <img src={cover} alt="image cover" />
+                    <img src={cover} alt="img-cover" />
                 </div>
                 <form className="form">
                     <div className="logo"></div>

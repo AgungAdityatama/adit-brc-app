@@ -5,7 +5,6 @@ import { getCar } from '../../../actions/carAction';
 //assets
 import { FiUsers, FiSettings, FiCalendar } from "react-icons/fi";
 import './CardHasil.css'
-import img from '../../../assets/images/banner.png'
 
 function CardHasil() {
 
