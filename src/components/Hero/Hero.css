@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    height: 504px;
+    background-color: #F1F3FF;
+    display: flex;
+}
+
+.hero p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero .col {
+    flex: 50%;
+}
+
+.hero .hero-title .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    margin: 177px 100px 0 136px;
+}
+
+.hero .hero-title .desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 16px 280px 16px 136px;
+}
+
+.hero .hero-title .btn-start {
+    width: 140px;
+    height: 36px;
+    padding: 8px 12px;
+    margin-left: 136px;
+    background: #5CB85F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.hero .hero-image {
+    background-color: #0D28A6;
+    height: 243px;
+    margin-top: 261px;
+    border-top-left-radius: 60px;
+}
+
+.hero .hero-image img {
+    width: 100%;
+    height: 460px;
+    margin-top: -180px;
+}

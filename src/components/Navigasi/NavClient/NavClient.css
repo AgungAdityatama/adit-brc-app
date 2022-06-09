@@ -1,0 +1,39 @@
+.nav-client {
+    width: 100%;
+    background-color: #F1F3FF;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-client .nav {
+    margin: 25px 136px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-client .nav .logo {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.nav-client .nav .menu .link {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.nav-client .nav .menu .link-register {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    background-color: #5CB85F;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}

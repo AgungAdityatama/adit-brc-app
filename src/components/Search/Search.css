@@ -1,0 +1,46 @@
+.form-search {
+    width: 65%;
+    height: 106px;
+    margin: -50px auto 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.form-search .field {
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-search .field label {
+    color: #3C3C3C;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.form-search .field .input {
+    width: 210.75px;
+    height: 36px;
+    padding: 0;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+.form-search .field .btn-search {
+    height: 36px;
+    color: #FFFFFF;
+    background-color: #5CB85F;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 12px;
+    border: 1px solid #5CB85F;
+    border-radius: 2px;
+    cursor: pointer;
+}

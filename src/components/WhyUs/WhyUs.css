@@ -1,0 +1,75 @@
+.why-us {
+    width: 80%;
+    margin: 100px auto 0;
+}
+
+.why-us p {
+    margin: 0;
+    padding: 0;
+}
+
+.why-us .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.why-us .desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.why-us .card-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why-us .card-group .card {
+    width: 268px;
+    height: 156px;
+    border: 1px solid #D0D0D0;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 24px;
+}
+
+.why-us .card-group .card .icon {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.why-us .card-group .card .icon.icon-1 {
+    background-color: #F9CC00;
+}
+
+.why-us .card-group .card .icon.icon-2 {
+    background-color: #FA2C5A;
+}
+
+.why-us .card-group .card .icon.icon-3 {
+    background-color: #0D28A6;
+}
+
+.why-us .card-group .card .icon.icon-4 {
+    background-color: #5CB85F;
+}
+
+.why-us .card-group .card .card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.why-us .card-group .card .card-desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}

@@ -1,0 +1,55 @@
+.our-services {
+    width: 70%;
+    height: 428px;
+    display: flex;
+    margin: 100px auto 0;
+}
+
+.our-services p,
+.our-services ul {
+    margin: 0;
+    padding: 0;
+}
+
+.our-services .col {
+    flex: 50%;
+}
+
+.our-services .desc-service {
+    margin-left: 50px;
+}
+
+.our-services .desc-service .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 36px;
+}
+
+.our-services .desc-service .desc {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 24px;
+    margin-right: 100px;
+}
+
+.our-services .desc-service .list {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.our-services .desc-service .list .icon {
+    background-color: #CFD4ED;
+    color: #0D28A6;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 2px;
+}
