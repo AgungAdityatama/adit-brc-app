@@ -5,8 +5,9 @@ import { getCar } from '../../../actions/carAction';
 //assets
 import { FiUsers, FiSettings, FiCalendar } from "react-icons/fi";
 import './CardHasil.css'
+import { Link } from 'react-router-dom';
 
-function CardHasil() {
+function CardHasil(carReducer) {
 
     const { getDataCarResult, getDataCarLoading, getDataCarError } = useSelector((state) => state.carReducer);
 
@@ -19,7 +20,9 @@ function CardHasil() {
     return (
         <>
             {getDataCarResult ? (
-                getDataCarResult.map((carReducer) => {
+                getDataCarResult.filter(getDataCarResult => {
+                    return getDataCarResult.status === true
+                }).map((carReducer) => {
                     return (
                         <div key={carReducer.id} className="card-hasil">
                             <div className="card">
@@ -43,7 +46,7 @@ function CardHasil() {
                                         <p>Tahun 2020</p>
                                     </div>
                                 </div>
-                                <button className='btn-pick'>Pilih Mobil</button>
+                                <Link to={`/cari/hasil/detail/${carReducer.id}`}><button className='btn-pick'>Pilih Mobil</button></Link>
                             </div>
                         </div>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 //assets
 import './Search.css'
@@ -28,7 +29,7 @@ function Search() {
                     <input className='input' type="text" placeholder='Jumlah Penumpang' />
                 </div>
                 <div className="field">
-                    <button className='btn-search'>Cari Mobil</button>
+                    <Link to='/cari/hasil'><button className='btn-search'>Cari Mobil</button></Link>
                 </div>
             </form>
         </>

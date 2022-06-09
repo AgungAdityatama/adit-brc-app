@@ -16,11 +16,11 @@
 }
 
 .detail .desc {
-    width: 65%;
+    width: 1047px;
     margin: 40px auto 0;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 45px;
+    gap: 35px;
 }
 
 .detail .desc .package {

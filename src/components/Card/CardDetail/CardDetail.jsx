@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom';
 
 //assets
 import { FiUsers, FiSettings, FiCalendar } from "react-icons/fi";
@@ -6,6 +7,21 @@ import './CardDetail.css'
 import img from '../../../assets/images/banner.png'
 
 function CardDetail() {
+    const { id } = useParams();
+
+    let [item, setItem] = useState([]);
+
+    const datas = async () => {
+        let fetchs = await fetch('https://rent-cars-api.herokuapp.com/customer/car/' + id)
+        let datas = await fetchs.json();
+        setItem(item = datas)
+    }
+
+    useEffect(() => {
+
+        datas();
+
+    }, []);
     return (
         <>
             <div className="card-detail">
@@ -14,7 +30,7 @@ function CardDetail() {
                         <img src={img} className="img" alt="img" />
                     </div>
                     <div className="content">
-                        <p className='name'>Nama/Tipe Mobil</p>
+                        <p className='name'>{item.name}/{item.category}</p>
                         <div className="content-info">
                             <div className='info'>
                                 <FiUsers className='icon' />
@@ -31,7 +47,7 @@ function CardDetail() {
                         </div><br /><br />
                         <div className="fee">
                             <p>Total</p>
-                            <p className='price'>Rp 430.000 / hari</p>
+                            <p className='price'>{datas.price} / hari</p>
                         </div>
                     </div>
                     <button className='btn-pick'>Lanjutkan Pembayaran</button>
